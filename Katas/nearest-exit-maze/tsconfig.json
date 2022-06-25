@@ -1,0 +1,11 @@
+{
+    "extends": "@tsconfig/node16/tsconfig.json",
+    "compilerOptions": {
+        "target": "ES6",
+        "strict": true,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "removeComments": true
+    },
+    "exclude": ["node_modules", "./src/tests"]
+}
